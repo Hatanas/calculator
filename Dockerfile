@@ -1,4 +1,4 @@
-FROM node:21-bookworm
+FROM node:lts-bookworm
 
 RUN apt-get update && \
     npm install -g npm && \
